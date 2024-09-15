@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class Soal3 {
     public static void main(String[] args) {
-        String[] perWord = new String[100];
+//        String[] perWord = new String[100];
         int counter = 1;
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Contoh camelCase: letGodDoTheRest");
         System.out.println("Masukkan kata dalam bentuk camelCase: ");
         String userIn = input.nextLine();
 
@@ -15,6 +16,6 @@ public class Soal3 {
             }
         }
 
-        System.out.print("Jumlah kata camelCase: " + counter);
+        System.out.print("Banyak kata yang digabung dalam camelCase: " + counter);
     }
 }
